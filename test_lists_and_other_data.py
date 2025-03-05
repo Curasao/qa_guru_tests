@@ -21,13 +21,13 @@ def test_rectangle():
     """
     a = 10
     b = 20
-    # TODO сосчитайте периметр
+
 
     perimeter = 2 * (a + b)
 
     assert perimeter == 60
 
-    # TODO сосчитайте площадь
+
 
     area = a * b
 
@@ -41,12 +41,12 @@ def test_circle():
     """
     r = 23
     matdegree = 2
-    # TODO сосчитайте площадь
+
     area = math.pi * pow(r,matdegree)
 
     assert area == 1661.9025137490005
 
-    # TODO сосчитайте длину окружности
+
     length = 2 * math.pi * r
 
     assert length == 144.51326206513048
@@ -77,7 +77,7 @@ def test_unique_elements():
     Удалите из списка все повторяющиеся элементы
     """
     l = [1, 2, 3, 4, 5, 5, 5, 6, 7, 8, 8, 9, 10, 10]
-    # TODO удалите повторяющиеся элементы
+
     l = [1, 2, 3, 4, 5, 5, 5, 6, 7, 8, 8, 9, 10, 10]
 
     l = list(set(l))
