@@ -34,7 +34,8 @@ def test_complete_todo():
     #проверка кнопки "Загрузить фото"
     browser.element('#uploadPicture').type(os.path.abspath('water.jpg'))
     #проверка дропдаун списков город и штат
-
+    browser.element('#state').click().element('#react-select-3-option-1').click()
+    browser.element('#city').click().element('#react-select-4-option-2').click()
     #отправка формы
     browser.element('#submit').click()
 
